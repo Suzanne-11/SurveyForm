@@ -1,7 +1,68 @@
-.parallex{
-    
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#container{
+  padding: 20px;
 }
+
+label,input{
+  margin:10px;
+  
+}
+
+body,html{
+  height:100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container{
+  background-image:url("https://images.unsplash.com/photo-1626554296361-908916b44891?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODA1MTI4OQ&ixlib=rb-1.2.1&q=85");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#survey-form{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: rgba(255,255,255,0.85);
+  max-width: 40%;
+  padding: 16px;
+  float: center;
+  margin-left: 28.7%;
+  margin-right: 28%;
+  font-family: 'Andada Pro', serif;
+  
+}
+
+#submit{
+  background-color: rgb(70, 199, 188);
+  margin: auto;
+  width: 50%;
+}
+
+label{
+  
+}
+
+#submit:hover{
+  opacity: 0.7;
+}
+
+#header{
+  margin-bottom: 10px;
+  background-color: rgba(255,255,255,0.85);
+  max-width: 40%;
+  padding: 16px;
+  float: center;
+  margin-left: 28.7%;
+  margin-right: 28%;
+  font-family: 'Andada Pro', serif;
+}
+
+
+  
+  
+  
+  
